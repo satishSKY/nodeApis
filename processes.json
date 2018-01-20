@@ -1,0 +1,21 @@
+/*pm2 start processes.json
+pm2 stop processes.json
+pm2 reload process.json
+pm2 reload process.json --only api*/
+{
+        "apps": [{
+                "name": "DMS",
+                "script": "server.js",
+                "watch"       : true,
+                "instances": "max",
+                "exec_mode": "cluster",
+              //  "error_file":"./logs/error_file.log",
+               // "out_file":"./logs/out_file.log",
+                "env": {
+                        "NODE_ENV": "development"
+                      },
+                      "env_production" : {
+                         "NODE_ENV": "production"
+                      }
+        }]
+}

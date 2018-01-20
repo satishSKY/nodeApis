@@ -1,0 +1,43 @@
+{
+  "name": "docketapis",
+  "version": "1.0.0",
+  "description": "docket api node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error : no test command\\\" && exit 1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cnvginfo@bitbucket.org/cnvginfo/docketmanagement.git"
+  },
+  "keywords": [
+    "Restful",
+    "API"
+  ],
+  "author": "Satish Kumar Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://cnvginfo@bitbucket.org/cnvginfo/docketmanagement.git"
+  },
+  "homepage": "https://cnvginfo@bitbucket.org/cnvginfo/docketmanagement.git",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "async": "^2.4.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "formidable": "^1.1.1",
+    "html-pdf": "^2.1.0",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "mysql": "^2.13.0",
+    "node-excel-export": "^1.4.2",
+    "nodemailer": "^4.0.1",
+    "request": "^2.81.0",
+    "underscore": "^1.8.3",
+    "uuid": "^3.1.0",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}
