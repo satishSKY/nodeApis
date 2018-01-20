@@ -1,13 +1,13 @@
 # README #
 
-INIFD nodejs apis
+Node apis
 
 ### What is this repository for? ###
 
 
 ### How do I get set up? ###
 1. get clone form bellow url.
-        URL : https://cnvginfo@bitbucket.org/cnvginfo/inifd.git
+        URL : https://github.com/satishSKY/nodeApis.git
 2. Go to app directory and install the dependency
         npm install
 3. Run the setup.
